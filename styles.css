@@ -47,6 +47,7 @@ body {
     width: 4rem;
     height: 4rem;
     padding: 0;
+    -webkit-appearance: none;
 }
 
 .winner {

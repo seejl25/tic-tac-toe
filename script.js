@@ -14,7 +14,6 @@ function Gameboard() {
             boardCol.classList.add("cols");
             const cellBtn = document.createElement("button");
             cellBtn.classList.add("cell-btn");
-            cellBtn.setAttribute("type", "button");
             cellBtn.textContent = "";
             boardCol.appendChild(cellBtn);
             boardRow.appendChild(boardCol);
